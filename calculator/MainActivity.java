@@ -27,12 +27,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        setContentView(R.layout.radio_button_example);
-
-//        button2 = findViewById(R.id.button2);
-//        male = findViewById(R.id.male);
-//        female = findViewById(R.id.female);
-//        rg = findViewById(R.id.radioGroup);
 
         text1 = findViewById(R.id.editText1);
         text2 = findViewById(R.id.editText2);
@@ -54,18 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     Toast.makeText(MainActivity.this, "Plase click on the check box", Toast.LENGTH_SHORT).show();
                 }
-                //Toast.makeText(MainActivity.this, "Addition : " + sum, Toast.LENGTH_SHORT).show();
             }
         });
-
-//        button2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                int id = rg.getCheckedRadioButtonId();
-//                RadioButton rb = findViewById(id);
-//
-//                Toast.makeText(MainActivity.this, "Clicked " + rb.getText().toString(), Toast.LENGTH_SHORT).show();
-//            }
-//        });
     }
 }
