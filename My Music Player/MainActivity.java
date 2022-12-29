@@ -5,8 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.SeekBar;
+import android.widget.*;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -16,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private Button play, pause, stop;
     private SeekBar seekBar;
     private MediaPlayer mediaPlayer;
+    private RatingBar ratingBar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,15 @@ public class MainActivity extends AppCompatActivity {
         pause = findViewById(R.id.button2);
         stop = findViewById(R.id.button3);
         seekBar = findViewById(R.id.seekBar);
+        ratingBar = findViewById(R.id.ratingBar);
 
+        //Rating bar
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+                Toast.makeText(MainActivity.this, "Thanks for rating us : "+v, Toast.LENGTH_SHORT).show();
+            }
+        });
         
         //Add the song.mp3(any audio file) at Res/raw/ 
         mediaPlayer = MediaPlayer.create(this, R.raw.song);
