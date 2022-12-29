@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         stop = findViewById(R.id.button3);
         seekBar = findViewById(R.id.seekBar);
 
+        
+        //Add the song.mp3(any audio file) at Res/raw/ 
         mediaPlayer = MediaPlayer.create(this, R.raw.song);
 
         play.setOnClickListener(new View.OnClickListener() {
