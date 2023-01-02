@@ -1,1 +1,1 @@
-CardView in RecyclerView
+Eaxmple of CardView in RecyclerView
