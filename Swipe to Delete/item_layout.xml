@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="15dp"
+    android:elevation="9dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/purple_200"
+            android:text="This is First Taks"
+            android:id="@+id/mcheckbox"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:paddingStart="10dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
