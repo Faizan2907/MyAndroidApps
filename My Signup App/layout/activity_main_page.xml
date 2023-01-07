@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/userText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Full name : "
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/userFullname"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/userText"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/dobText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Date of Birth : "
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/dob"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/dobText"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/mobText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Mobile no. : "
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/mobile"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/mobText"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/emailText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Email : "
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/emailText"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/userIdText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="User ID : "
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/userId"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/userIdText"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/update"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Click here to Update details"
+        android:textSize="12sp"
+        android:background="@drawable/round_button"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/signin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Got to Sign In"
+        android:textSize="15sp"
+        android:background="@drawable/round_button"
+        />
+
+</LinearLayout>
