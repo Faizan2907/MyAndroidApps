@@ -188,6 +188,7 @@ public class SignUp extends AppCompatActivity {
             @Override
             public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
                 i1++;
+                //Date : dd/mm/yyyy
                 date.setText(i2 + "/" + i1 + "/" + i);
             }
         }, YEAR, MONTH, DATE);
