@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +38,22 @@ public class MainActivity extends AppCompatActivity {
         mImages.add(R.drawable.csharp);
         mImages.add(R.drawable.angular);
         mImages.add(R.drawable.html);
+        mImages.add(R.drawable.c);
+        mImages.add(R.drawable.cpp);
+        mImages.add(R.drawable.java);
+        mImages.add(R.drawable.css);
+        mImages.add(R.drawable.csharp);
+        mImages.add(R.drawable.angular);
+        mImages.add(R.drawable.html);
 
+
+        titles.add("C Programming");
+        titles.add("C++ Programming");
+        titles.add("Java Programming");
+        titles.add("Cascading Style Sheets");
+        titles.add("C Sharp Programming");
+        titles.add("Angular Programming");
+        titles.add("HTML");
         titles.add("C Programming");
         titles.add("C++ Programming");
         titles.add("Java Programming");
