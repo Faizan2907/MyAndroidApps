@@ -59,6 +59,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    //show the position of the card
                     Toast.makeText(view.getContext(), "Clicked : "+getAdapterPosition(), Toast.LENGTH_SHORT).show();
                 }
             });
