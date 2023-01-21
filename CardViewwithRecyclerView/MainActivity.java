@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         mImages = new ArrayList<>();
 
         myAdapter = new MyAdapter(this, titles, mImages);
-
+        
+        
+        //Imgaes
         mImages.add(R.drawable.c);
         mImages.add(R.drawable.cpp);
         mImages.add(R.drawable.java);
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         mImages.add(R.drawable.angular);
         mImages.add(R.drawable.html);
 
-
+        //Title
         titles.add("C Programming");
         titles.add("C++ Programming");
         titles.add("Java Programming");
