@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81">
+
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/circular_btn"
+            android:ems="10"
+            android:hint="@string/email_idHint"
+            android:textColor="@color/black"
+            android:textColorHint="#BBBBBB"
+            android:gravity="center"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circular_btn"
+            android:layout_below="@+id/emailId"
+            android:textColor="@color/black"
+            android:layout_marginTop="55dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/passwordHint"
+            android:textColorHint="#BBBBBB"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/regButton"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/password"
+            android:elevation="10dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regButton"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="Already registered? " />
+
+            <TextView
+                android:id="@+id/signInTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_centerHorizontal="true"
+                android:text="Signin" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
