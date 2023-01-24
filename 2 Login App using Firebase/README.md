@@ -6,7 +6,7 @@ Login and Signup app using Firebase as backend (Password authentication).
 # 2 Registration page #
 <img width="50%" hight = "50%" src="https://user-images.githubusercontent.com/67515374/214068888-ce4758cb-8da3-43ce-b892-b20972ede71b.jpg">
 
-# 3 After registration trying to login #
+# 3 Login page #
 <img width="50%" hight = "50%" src="https://user-images.githubusercontent.com/67515374/214068927-af6e6890-4c4a-4374-b5a2-3049eac4ebb1.jpg">
 
 # 4 Form validation #
