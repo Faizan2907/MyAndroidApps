@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="25dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="Fill the following details"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:fontFamily="@font/alata"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_btn"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Firstname"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="#BBBBBB"
+        />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:fontFamily="@font/alata"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_btn"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Lastname"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="#BBBBBB"
+        />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:fontFamily="@font/alata"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_btn"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Mobile"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="#BBBBBB"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:fontFamily="@font/alata"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_btn"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Email address"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="#BBBBBB"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circular_btn"
+        android:textSize="20sp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/showData"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/circular_btn"
+        android:textSize="15sp"
+        android:text="Show Data"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
