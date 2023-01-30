@@ -9,7 +9,7 @@ Login and Signup app using Firebase as backend (Password authentication).
 # 3 After successfully uploading the image in the database #
 <img width="50%" hight = "50%" src="https://user-images.githubusercontent.com/67515374/215273585-6bad2d17-af20-4121-a060-a7d8d252d893.jpg">
 
-# 4 Show all button will retrieve data from the realtime databse #
+# 4 Show all button will retrieve data from the realtime database #
 <img width="50%" hight = "50%" src="https://user-images.githubusercontent.com/67515374/215273596-c495ef68-a6fc-4aaf-8c5b-cef53c1691e8.jpg">
 
 # 5 Stored data in the database #
